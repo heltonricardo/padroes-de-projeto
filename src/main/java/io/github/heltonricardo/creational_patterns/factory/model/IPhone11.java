@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.before.model;
+package src.main.java.io.github.heltonricardo.creational_patterns.factory.model;
 
 public class IPhone11 extends IPhone {
 

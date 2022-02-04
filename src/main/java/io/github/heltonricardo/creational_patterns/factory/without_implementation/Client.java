@@ -1,6 +1,6 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.before;
+package src.main.java.io.github.heltonricardo.creational_patterns.factory.without_implementation;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.before.model.*;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.*;
 
 public class Client {
 
