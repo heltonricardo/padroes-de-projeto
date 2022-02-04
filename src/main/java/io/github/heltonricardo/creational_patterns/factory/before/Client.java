@@ -22,7 +22,7 @@ public class Client {
         }
 
         if (device != null) {
-        device.getHardware();
+            device.getHardware();
             device.assemble();
             device.certificates();
             device.pack();
