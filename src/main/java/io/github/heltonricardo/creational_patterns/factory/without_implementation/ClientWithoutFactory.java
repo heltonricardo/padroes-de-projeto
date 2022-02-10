@@ -2,7 +2,7 @@ package src.main.java.io.github.heltonricardo.creational_patterns.factory.withou
 
 import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.*;
 
-public class Client {
+public class ClientWithoutFactory {
 
     public IPhone orderIPhone(String generation, String level) {
         IPhone device = null;
@@ -32,7 +32,7 @@ public class Client {
     }
 
     public static void main(String[] args) {
-        Client client = new Client();
+        ClientWithoutFactory client = new ClientWithoutFactory();
 
         System.out.println("### Ordering an iPhone X");
         IPhone iphone = client.orderIPhone("X", "standard");
