@@ -1,6 +1,10 @@
 package src.main.java.io.github.heltonricardo.creational_patterns.factory.without_implementation;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.*;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhone;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhone11;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhone11Pro;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhoneX;
+import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhoneXSMax;
 
 public class ClientWithoutFactory {
 
