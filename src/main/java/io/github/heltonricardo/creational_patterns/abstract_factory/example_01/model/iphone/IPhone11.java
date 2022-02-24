@@ -1,6 +1,6 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.implementation_01.model.iphone;
+package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.example_01.model.iphone;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.CountryRulesAbstractFactory;
+import src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.example_01.factory.abstractFactory.CountryRulesAbstractFactory;
 
 public class IPhone11 extends IPhone {
 

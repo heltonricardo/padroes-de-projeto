@@ -1,6 +1,6 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.implementation_01.model.iphone;
+package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.example_01.model.iphone;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.CountryRulesAbstractFactory;
+import src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.example_01.factory.abstractFactory.CountryRulesAbstractFactory;
 
 public abstract class IPhone {
 
@@ -18,9 +18,11 @@ public abstract class IPhone {
 
     public void certificates() {
         System.out.println("Testing all the certificates");
+        System.out.println(rules.getCertificates().applyCertification());
     }
 
     public void pack() {
         System.out.println("Packing the device");
+        System.out.println(rules.getPacking().pack());
     }
 }

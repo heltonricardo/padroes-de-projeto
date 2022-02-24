@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.implementation_01.model.certificate;
+package src.main.java.io.github.heltonricardo.creational_patterns.abstract_factory.example_01.model.certificate;
 
 public class BrazilianCertificate implements Certificate {
 
