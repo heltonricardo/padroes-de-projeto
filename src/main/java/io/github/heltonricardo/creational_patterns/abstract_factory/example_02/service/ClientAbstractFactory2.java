@@ -2,7 +2,7 @@ package src.main.java.io.github.heltonricardo.creational_patterns.abstract_facto
 
 public class ClientAbstractFactory2 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-	}
+    }
 }
