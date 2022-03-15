@@ -2,18 +2,26 @@ package src.main.java.io.github.heltonricardo.creational_patterns.singleton.conn
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class ConnectionPool {
 
     private final static int POOL_SIZE = 2;
+    private final static ConnectionPool singleton = new ConnectionPool();
+
     private final List<Connection> connectionsPool;
 
-    public ConnectionPool() {
+    private ConnectionPool() {
         System.out.println("Creating Connection Pool");
-        connectionsPool = new ArrayList<Connection>();
+        connectionsPool = new ArrayList<>();
         for (int i = 0; i < POOL_SIZE; i++) {
             connectionsPool.add(new Connection());
         }
+    }
+
+    public static ConnectionPool getInstance() {
+        return singleton;
     }
 
     public Connection getConnection() {

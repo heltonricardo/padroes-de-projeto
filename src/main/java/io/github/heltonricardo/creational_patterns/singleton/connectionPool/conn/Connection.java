@@ -8,16 +8,16 @@ public class Connection {
         inUse = false;
     }
 
-    public Object query(String sql) {
-        System.out.println("Running '" + sql + "' in Connection " + this);
-        return null;
-    }
-
-    boolean isInUse() {
+    public boolean isInUse() {
         return inUse;
     }
 
-    void setInUse(boolean status) {
-        inUse = status;
+    public void setInUse(boolean inUse) {
+        this.inUse = inUse;
+    }
+
+    public Object query(String sql) {
+        System.out.println("Running '" + sql + "' in Connection " + this);
+        return null;
     }
 }
