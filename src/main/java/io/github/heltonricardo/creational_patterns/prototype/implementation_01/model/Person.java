@@ -1,6 +1,6 @@
 package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model;
 
-public class Person {
+public class Person implements Cloneable {
 
     String line1;
     String line2;
@@ -34,5 +34,10 @@ public class Person {
         line2 = " " + line2;
         line3 = " " + line3;
         line4 = "_" + line4;
+    }
+
+    @Override
+    public Person clone() throws CloneNotSupportedException {
+        return (Person) super.clone();
     }
 }

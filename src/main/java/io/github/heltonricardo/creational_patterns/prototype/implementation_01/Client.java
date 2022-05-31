@@ -1,6 +1,7 @@
 package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01;
 
 import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.Person;
+import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.PersonSamples;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class Client {
             frame.draw();
             Thread.sleep(500);
         }
-		
+
         System.out.println("**********************");
         System.out.println("* ");
         System.out.println("* The End!");
@@ -31,7 +32,40 @@ public class Client {
         System.out.print("**********************");
     }
 
-    public static void main(String[] args) {
+    public static Person addRight(Person person) throws CloneNotSupportedException {
+        Person clone = person.clone();
+        clone.right();
+        frames.add(clone);
+        return clone;
+    }
 
+    public static Person addLeft(Person person) throws CloneNotSupportedException {
+        Person clone = person.clone();
+        clone.left();
+        frames.add(clone);
+        return clone;
+    }
+
+    public static void main(String[] args) throws CloneNotSupportedException, InterruptedException {
+
+		PersonSamples samples = new PersonSamples();
+        Person person = samples.get("fatMan");
+
+        frames.add(person);
+        person = addLeft(person);
+        person = addLeft(person);
+        person = addLeft(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addRight(person);
+        person = addLeft(person);
+        person = addLeft(person);
+        addLeft(person);
+
+        animate();
     }
 }
