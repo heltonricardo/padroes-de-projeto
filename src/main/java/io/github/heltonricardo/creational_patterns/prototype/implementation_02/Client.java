@@ -11,8 +11,9 @@ public class Client {
         System.out.println(user);
 
         User cloneUser = user.clone();
-        cloneUser.name = "Clone x2";
+        cloneUser.name = "Clone";
         cloneUser.address.street = "Double Street";
+
         System.out.println(user);
         System.out.println(cloneUser);
     }
