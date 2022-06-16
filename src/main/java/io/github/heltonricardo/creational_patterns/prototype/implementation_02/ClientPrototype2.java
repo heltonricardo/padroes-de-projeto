@@ -3,7 +3,7 @@ package src.main.java.io.github.heltonricardo.creational_patterns.prototype.impl
 import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.Address;
 import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.User;
 
-public class Client {
+public class ClientPrototype2 {
 
     public static void main(String[] args) throws CloneNotSupportedException {
 

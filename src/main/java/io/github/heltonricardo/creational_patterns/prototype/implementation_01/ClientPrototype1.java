@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Client {
+public class ClientPrototype1 {
 
     private final static List<Person> frames = new ArrayList<>();
 
