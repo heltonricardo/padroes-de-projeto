@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model;
+package io.github.heltonricardo.creational_patterns.prototype.implementation_01.model;
 
 public class Person implements Cloneable {
 

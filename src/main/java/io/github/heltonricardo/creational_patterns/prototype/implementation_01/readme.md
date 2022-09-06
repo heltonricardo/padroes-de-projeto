@@ -3,9 +3,9 @@
 Supondo a estrutura:
 
 - ObjetoOriginal
+
   - campo1: int / Integer
   - campo2: Referencia
-
 
 - ObjetoCopia
   - campo1: int / Integer

@@ -1,7 +1,7 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.singleton.connectionPool;
+package io.github.heltonricardo.creational_patterns.singleton.connectionPool;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn.Connection;
-import src.main.java.io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn.ConnectionPool;
+import io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn.Connection;
+import io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn.ConnectionPool;
 
 public class ClientSingleton {
 

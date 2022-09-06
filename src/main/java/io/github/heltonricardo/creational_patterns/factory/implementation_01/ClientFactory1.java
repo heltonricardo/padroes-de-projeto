@@ -1,8 +1,8 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_01;
+package io.github.heltonricardo.creational_patterns.factory.implementation_01;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhone11ProFactory;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhoneFactory;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhoneXFactory;
+import io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhone11ProFactory;
+import io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhoneFactory;
+import io.github.heltonricardo.creational_patterns.factory.implementation_01.factory.IPhoneXFactory;
 
 public class ClientFactory1 {
 

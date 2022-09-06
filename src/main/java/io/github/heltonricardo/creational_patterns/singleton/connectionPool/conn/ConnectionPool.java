@@ -1,9 +1,7 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn;
+package io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class ConnectionPool {
 

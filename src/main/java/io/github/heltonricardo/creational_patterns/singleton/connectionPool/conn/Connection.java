@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn;
+package io.github.heltonricardo.creational_patterns.singleton.connectionPool.conn;
 
 public class Connection {
 

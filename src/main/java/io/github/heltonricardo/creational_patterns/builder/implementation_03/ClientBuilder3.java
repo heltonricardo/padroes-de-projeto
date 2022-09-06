@@ -1,6 +1,6 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.builder.implementation_03;
+package io.github.heltonricardo.creational_patterns.builder.implementation_03;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.builder.implementation_03.model.FastFoodMeal;
+import io.github.heltonricardo.creational_patterns.builder.implementation_03.model.FastFoodMeal;
 
 public class ClientBuilder3 {
 

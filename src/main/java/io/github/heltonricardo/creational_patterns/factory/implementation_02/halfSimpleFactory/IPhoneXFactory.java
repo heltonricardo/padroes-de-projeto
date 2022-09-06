@@ -1,8 +1,8 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory;
+package io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhone;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhoneX;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhoneXSMax;
+import io.github.heltonricardo.creational_patterns.factory.model.IPhone;
+import io.github.heltonricardo.creational_patterns.factory.model.IPhoneX;
+import io.github.heltonricardo.creational_patterns.factory.model.IPhoneXSMax;
 
 public class IPhoneXFactory extends IPhoneFactory {
 

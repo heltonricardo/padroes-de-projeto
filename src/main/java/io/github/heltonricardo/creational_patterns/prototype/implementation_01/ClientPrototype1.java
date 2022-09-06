@@ -1,7 +1,7 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01;
+package io.github.heltonricardo.creational_patterns.prototype.implementation_01;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.Person;
-import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.PersonSamples;
+import io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.Person;
+import io.github.heltonricardo.creational_patterns.prototype.implementation_01.model.PersonSamples;
 
 import java.util.ArrayList;
 import java.util.List;

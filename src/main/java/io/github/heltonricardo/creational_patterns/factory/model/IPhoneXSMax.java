@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.model;
+package io.github.heltonricardo.creational_patterns.factory.model;
 
 public class IPhoneXSMax extends IPhone {
 

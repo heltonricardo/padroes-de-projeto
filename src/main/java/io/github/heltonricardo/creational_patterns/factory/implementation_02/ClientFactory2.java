@@ -1,9 +1,9 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_02;
+package io.github.heltonricardo.creational_patterns.factory.implementation_02;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhone11Factory;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneFactory;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneXFactory;
-import src.main.java.io.github.heltonricardo.creational_patterns.factory.model.IPhone;
+import io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhone11Factory;
+import io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneFactory;
+import io.github.heltonricardo.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneXFactory;
+import io.github.heltonricardo.creational_patterns.factory.model.IPhone;
 
 public class ClientFactory2 {
 

@@ -1,6 +1,6 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.builder.without_implementation;
+package io.github.heltonricardo.creational_patterns.builder.without_implementation;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.builder.without_implementation.model.FastFoodMeal;
+import io.github.heltonricardo.creational_patterns.builder.without_implementation.model.FastFoodMeal;
 
 public class ClientWithoutBuilder {
 

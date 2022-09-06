@@ -1,7 +1,7 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_02;
+package io.github.heltonricardo.creational_patterns.prototype.implementation_02;
 
-import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.Address;
-import src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.User;
+import io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.Address;
+import io.github.heltonricardo.creational_patterns.prototype.implementation_02.model.User;
 
 public class ClientPrototype2 {
 

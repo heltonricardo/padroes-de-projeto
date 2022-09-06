@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.prototype.implementation_01.model;
+package io.github.heltonricardo.creational_patterns.prototype.implementation_01.model;
 
 import java.util.HashMap;
 import java.util.Map;

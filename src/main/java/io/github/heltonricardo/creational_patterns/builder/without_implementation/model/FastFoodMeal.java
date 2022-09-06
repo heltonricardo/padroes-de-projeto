@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.builder.without_implementation.model;
+package io.github.heltonricardo.creational_patterns.builder.without_implementation.model;
 
 public class FastFoodMeal {
 

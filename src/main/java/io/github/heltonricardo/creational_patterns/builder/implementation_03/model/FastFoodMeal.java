@@ -1,4 +1,4 @@
-package src.main.java.io.github.heltonricardo.creational_patterns.builder.implementation_03.model;
+package io.github.heltonricardo.creational_patterns.builder.implementation_03.model;
 
 /* Usando Record: seus componentes (equivalentes aos atributos de uma Classe) serão sempre 'private final', ou seja, só
  * podem ser definidos através do construtor padrão gerado (com todos os componentes). Por padrão, a Record cria os
