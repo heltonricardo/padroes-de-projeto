@@ -1,6 +1,6 @@
-package info.helton.creational_patterns.factory.implementation_01.factory;
+package info.helton.creational_patterns.factory_method.implementation_01.factory;
 
-import info.helton.creational_patterns.factory.model.IPhone;
+import info.helton.creational_patterns.factory_method.model.IPhone;
 
 public abstract class IPhoneFactory {
 

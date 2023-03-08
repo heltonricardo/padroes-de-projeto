@@ -1,9 +1,9 @@
-package info.helton.creational_patterns.factory.implementation_02;
+package info.helton.creational_patterns.factory_method.implementation_02;
 
-import info.helton.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhone11Factory;
-import info.helton.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneFactory;
-import info.helton.creational_patterns.factory.implementation_02.halfSimpleFactory.IPhoneXFactory;
-import info.helton.creational_patterns.factory.model.IPhone;
+import info.helton.creational_patterns.factory_method.implementation_02.half_simple_factory.IPhone11Factory;
+import info.helton.creational_patterns.factory_method.implementation_02.half_simple_factory.IPhoneFactory;
+import info.helton.creational_patterns.factory_method.implementation_02.half_simple_factory.IPhoneXFactory;
+import info.helton.creational_patterns.factory_method.model.IPhone;
 
 public class ClientFactory2 {
 

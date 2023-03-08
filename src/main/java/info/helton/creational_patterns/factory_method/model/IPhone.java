@@ -1,4 +1,4 @@
-package info.helton.creational_patterns.factory.model;
+package info.helton.creational_patterns.factory_method.model;
 
 public abstract class IPhone {
 
