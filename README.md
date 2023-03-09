@@ -4,15 +4,15 @@
 
 Este repositório tem o objetivo de demonstrar as implementações e benefícios do uso dos padrões de projeto (_Design Patterns_) aplicados a vários exemplos do cotidiano e codificado na linguagem Java.
 
-### Definição
+### 🎯 Definição
 
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. (REFACTORING GURU, 2023)
 
-### Benefícios
+### 🌟 Benefícios
 
 Padrões são como um conjunto de ferramentas para soluções de problemas comuns em design de software. Eles definem uma linguagem comum que ajuda sua equipe a se comunicar mais eficientemente. (REFACTORING GURU, 2023)
 
-### Classificação
+### 🧬 Classificação
 
 Padrões de projeto diferem por sua complexidade, nível de detalhe e grau de aplicabilidade. Além disso, eles podem ser categorizados por seu propósito e divididos em três grupos. (REFACTORING GURU, 2023)
 
@@ -64,6 +64,6 @@ Padrões de projeto diferem por sua complexidade, nível de detalhe e grau de ap
 
 - [ ] Template Method
 
-### Referências
+### 📗 Referências
 
 [Refactoring Guru](https://refactoring.guru/pt-br/design-patterns)
