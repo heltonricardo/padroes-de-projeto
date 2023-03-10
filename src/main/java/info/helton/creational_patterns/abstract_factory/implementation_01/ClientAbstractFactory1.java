@@ -3,9 +3,9 @@ package info.helton.creational_patterns.abstract_factory.implementation_01;
 import info.helton.creational_patterns.abstract_factory.implementation_01.factory.IPhone11Factory;
 import info.helton.creational_patterns.abstract_factory.implementation_01.factory.IPhoneFactory;
 import info.helton.creational_patterns.abstract_factory.implementation_01.factory.IPhoneXFactory;
-import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.BrazilianRulesAbstractFactory;
-import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.CountryRulesAbstractFactory;
-import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.USRulesAbstractFactory;
+import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstract_factory.BrazilianRulesAbstractFactory;
+import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstract_factory.CountryRulesAbstractFactory;
+import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstract_factory.USRulesAbstractFactory;
 import info.helton.creational_patterns.abstract_factory.implementation_01.model.iphone.IPhone;
 
 public class ClientAbstractFactory1 {

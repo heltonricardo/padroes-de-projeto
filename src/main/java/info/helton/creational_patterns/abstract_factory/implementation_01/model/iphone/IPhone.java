@@ -1,12 +1,12 @@
 package info.helton.creational_patterns.abstract_factory.implementation_01.model.iphone;
 
-import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstractFactory.CountryRulesAbstractFactory;
+import info.helton.creational_patterns.abstract_factory.implementation_01.factory.abstract_factory.CountryRulesAbstractFactory;
 
 public abstract class IPhone {
 
     CountryRulesAbstractFactory rules;
 
-    public IPhone(CountryRulesAbstractFactory rules) {
+    protected IPhone(CountryRulesAbstractFactory rules) {
         this.rules = rules;
     }
 
