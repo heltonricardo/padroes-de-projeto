@@ -12,11 +12,9 @@ public class ClientAbstractFactory1 {
 
     public static void main(String[] args) {
 
-        CountryRulesAbstractFactory usRules =
-                new USRulesAbstractFactory();
+        CountryRulesAbstractFactory usRules = new USRulesAbstractFactory();
 
-        CountryRulesAbstractFactory brRules =
-                new BrazilianRulesAbstractFactory();
+        CountryRulesAbstractFactory brRules = new BrazilianRulesAbstractFactory();
 
         IPhoneFactory genXFactory = new IPhoneXFactory(usRules);
         IPhoneFactory gen11Factory = new IPhone11Factory(brRules);

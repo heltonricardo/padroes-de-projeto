@@ -16,6 +16,7 @@ public class IPhoneXFactory extends IPhoneFactory {
             return new IPhoneX(rules);
         } else if (level.equals("highEnd")) {
             return new IPhoneXSMax(rules);
-        } else return null;
+        } else
+            return null;
     }
 }
