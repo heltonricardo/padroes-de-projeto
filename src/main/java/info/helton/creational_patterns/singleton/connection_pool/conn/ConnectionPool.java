@@ -1,12 +1,12 @@
-package info.helton.creational_patterns.singleton.connectionPool.conn;
+package info.helton.creational_patterns.singleton.connection_pool.conn;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ConnectionPool {
 
-    private final static int POOL_SIZE = 2;
-    private final static ConnectionPool singleton = new ConnectionPool();
+    private static final int POOL_SIZE = 2;
+    private static final ConnectionPool singleton = new ConnectionPool();
 
     private final List<Connection> connectionsPool;
 

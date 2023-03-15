@@ -1,4 +1,4 @@
-package info.helton.creational_patterns.singleton.connectionPool.conn;
+package info.helton.creational_patterns.singleton.connection_pool.conn;
 
 public class Connection {
 

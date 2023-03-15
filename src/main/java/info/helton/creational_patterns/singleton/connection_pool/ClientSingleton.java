@@ -1,7 +1,7 @@
-package info.helton.creational_patterns.singleton.connectionPool;
+package info.helton.creational_patterns.singleton.connection_pool;
 
-import info.helton.creational_patterns.singleton.connectionPool.conn.Connection;
-import info.helton.creational_patterns.singleton.connectionPool.conn.ConnectionPool;
+import info.helton.creational_patterns.singleton.connection_pool.conn.Connection;
+import info.helton.creational_patterns.singleton.connection_pool.conn.ConnectionPool;
 
 public class ClientSingleton {
 
