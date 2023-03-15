@@ -6,8 +6,7 @@ public class ClientBuilder3 {
 
     public static void main(String[] args) {
 
-        FastFoodMeal meal = new FastFoodMeal
-                .Builder("Fries")
+        FastFoodMeal meal = new FastFoodMeal.Builder("Fries")
                 .andGift("Ball")
                 .andDessert("Ice Cream")
                 .andMain("X-Burger")
