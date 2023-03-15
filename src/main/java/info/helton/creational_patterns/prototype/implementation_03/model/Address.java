@@ -16,6 +16,7 @@ public class Address implements Cloneable {
     }
 
     @Override
+    @SuppressWarnings("java:S2975")
     public Address clone() throws CloneNotSupportedException {
         return (Address) super.clone();
     }
@@ -24,7 +25,7 @@ public class Address implements Cloneable {
         private String street;
         private Integer number;
 
-        private Builder(String street, Integer number) {
+        public Builder(String street, Integer number) {
             this.street = street;
             this.number = number;
         }

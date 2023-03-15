@@ -1,15 +1,14 @@
 package info.helton.creational_patterns.prototype.implementation_01;
 
-import info.helton.creational_patterns.prototype.implementation_01.model.Person;
-import info.helton.creational_patterns.prototype.implementation_01.model.PersonSamples;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import info.helton.creational_patterns.prototype.implementation_01.model.Person;
+import info.helton.creational_patterns.prototype.implementation_01.model.PersonSamples;
 
 public class ClientPrototype1 {
 
-    private final static List<Person> frames = new ArrayList<>();
+    private static final List<Person> frames = new ArrayList<>();
 
     public static void animate() throws InterruptedException {
         System.out.println("*********************************");
@@ -48,7 +47,7 @@ public class ClientPrototype1 {
 
     public static void main(String[] args) throws CloneNotSupportedException, InterruptedException {
 
-		PersonSamples samples = new PersonSamples();
+        PersonSamples samples = new PersonSamples();
         Person person = samples.get("fatMan");
 
         frames.add(person);

@@ -18,6 +18,7 @@ public class User implements Cloneable {
     }
 
     @Override
+    @SuppressWarnings({ "java:S2975", "java:S1182" })
     public User clone() throws CloneNotSupportedException {
         Address clonedAddress = address.clone();
         return new User(name, age, clonedAddress);

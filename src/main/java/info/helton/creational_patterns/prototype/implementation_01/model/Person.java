@@ -37,6 +37,7 @@ public class Person implements Cloneable {
     }
 
     @Override
+    @SuppressWarnings("java:S2975")
     public Person clone() throws CloneNotSupportedException {
         return (Person) super.clone();
     }

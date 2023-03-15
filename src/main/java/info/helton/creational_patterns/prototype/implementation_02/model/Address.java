@@ -16,6 +16,7 @@ public class Address implements Cloneable {
     }
 
     @Override
+    @SuppressWarnings("java:S2975")
     public Address clone() throws CloneNotSupportedException {
         return (Address) super.clone();
     }
