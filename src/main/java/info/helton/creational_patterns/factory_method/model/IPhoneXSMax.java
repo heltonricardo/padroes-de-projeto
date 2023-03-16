@@ -1,6 +1,6 @@
 package info.helton.creational_patterns.factory_method.model;
 
-public class IPhoneXSMax extends IPhone {
+public class IPhoneXSMax implements IPhone {
 
     @Override
     public void getHardware() {
