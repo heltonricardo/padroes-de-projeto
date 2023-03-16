@@ -21,7 +21,8 @@ public class Client {
 
 		Computer pc2 = new Computer();
 		OldMonitor monitor = new OldMonitor();
-		// pc2.connectPort(monitor.getConnector()); //Don't work! That's why we create the adapter
+		// pc2.connectPort(monitor.getConnector()); // This line...
+		// ...doesn't work! That's why we created the adapter
 		pc2.connectPort(new HDMIToVGAAdapter(monitor));
 		pc2.sendImageAndSound(RAINBOW, SONG);
 
