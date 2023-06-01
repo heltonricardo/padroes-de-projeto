@@ -4,7 +4,7 @@
 
 Este repositório tem o objetivo de demonstrar as implementações e benefícios do uso dos padrões de projeto (_Design Patterns_) aplicados a vários exemplos do cotidiano e codificado na linguagem Java.
 
-### 🎯 Definição
+### 🔍 Definição
 
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. (REFACTORING GURU, 2023)
 
@@ -16,53 +16,53 @@ Padrões são como um conjunto de ferramentas para soluções de problemas comun
 
 Padrões de projeto diferem por sua complexidade, nível de detalhe e grau de aplicabilidade. Além disso, eles podem ser categorizados por seu propósito e divididos em três grupos. (REFACTORING GURU, 2023)
 
-1. ##### Padrões Criacionais
+1. #### Padrões Criacionais 🧪
 
-- [x] [Factory Method](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/factory_method)
+- [x] 🏭 [Factory Method](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/factory_method)
 
-- [x] [Abstract Factory](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/abstract_factory)
+- [x] 🏢 [Abstract Factory](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/abstract_factory)
 
-- [x] [Singleton](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/singleton)
+- [x] 🔒 [Singleton](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/singleton)
 
-- [x] [Builder](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/builder)
+- [x] 🔨 [Builder](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/builder)
 
-- [x] [Prototype](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/prototype)
+- [x] 🐣 [Prototype](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/creational_patterns/prototype)
 
-2. ##### Padrões Estruturais
+2. #### Padrões Estruturais 🧱
 
-- [x] [Adapter](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/structural_patterns/adapter)
+- [x] 🔌 [Adapter](https://github.com/heltonricardo/padroes-de-projeto/tree/main/src/main/java/info/helton/structural_patterns/adapter)
 
-- [ ] Bridge
+- [ ] 🌉 Bridge
 
-- [ ] Composite
+- [ ] 🌳 Composite
 
-- [ ] Decorator
+- [ ] 🎀 Decorator
 
-- [ ] Facade
+- [ ] 🏰 Facade
 
-- [ ] Flyweight
+- [ ] 🎈 Flyweight
 
-- [ ] Mediator
+- [ ] 🤝 Mediator
 
-- [ ] Proxy
+- [ ] 🕶️ Proxy
 
-3. ##### Padrões Comportamentais
+3. #### Padrões Comportamentais 🔄
 
-- [ ] Chain of Responsability
+- [ ] 🔗 Chain of Responsability
 
-- [ ] Memento
+- [ ] 💾 Memento
 
-- [ ] Command
+- [ ] ⚙️ Command
 
-- [ ] Iterator
+- [ ] ➰ Iterator
 
-- [ ] Observer
+- [ ] 👀 Observer
 
-- [ ] State
+- [ ] 📚 State
 
-- [ ] Strategy
+- [ ] 🎯 Strategy
 
-- [ ] Template Method
+- [ ] 📄 Template Method
 
 ### 📗 Referências
 
